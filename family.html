@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>With Family</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/simple.css">
+</head>
+
+<body>
+  <a href="#main_content" class="focus-visible-only">Skip to Main Content</a>
+  <header>
+    <nav class="topnav">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="invoke function">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </a>
+      <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="family.html">With Family</a>
+        <a href="korea.html">Visit Korea</a>
+      </div>
+    </nav>  
+    <nav class="topnav_others">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="family.html">With Family</a></li>
+      <li><a href="korea.html">Visit Korea</a></li>
+    </ul>
+  </nav>
+    <img src="images/partying.png" id="top_pic" alt="Family at a birthday party">
+    <h1>With Family</h1>
+  </header>
+  <main id="main_content"  >
+    <div  class="grid">
+      <figcaption><img src="images/bali_trip.png" alt="Bali trip right after marriage was fun">Bali trip</figcaption>
+      <figcaption><img src="images/bath.png" alt="Oops! My baby boy is taking a bath" >Boy is taking a bath</figcaption>
+      <figcaption><img src="images/birthday.png" alt="My baby turned 1">First birthday</figcaption>
+      <figcaption><img src="images/kids_at_zoo.png" alt="My kids enjoying animals at the zoo" >Kids at the zoo</figcaption>
+      <figcaption><img src="images/singapore.png" alt="Singapore was so much fun" >Singapore trip</figcaption>
+      <figcaption><img src="images/staycation.png" alt="It was good to stay in a five-star hotel in Jakarta" >Staycation in Jakarta</figcaption>
+      <figcaption><img src="images/subway.png" alt="Subway in Korea is very convenient">Subway in Korea</figcaption>
+      <figcaption><img src="images/performance.png" alt="Can you find my girl?"> My girl is performing</figcaption>
+      <figcaption><img src="images/with_parents.png" alt="My parents came to Jakarta to visit us">Parents came to Jakarta</figcaption>
+    </div>
+  </main>
+  <footer>
+      <p>This page was adapted for Andy from a page by Colleen van Lent for the <a
+          href="https://www.coursera.org/specializations/web-design"> Web Design for Everybody</a> Specialization.
+   </p>
+  </footer>
+  <script>
+     /* For navbar for mobile */
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Visit Korea</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/simple.css">
+</head>
+
+<body>
+  <a href="#main_content" class="focus-visible-only">Skip to Main Content</a>
+  <header>
+    <nav class="topnav">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="invoke function">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </a>
+      <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="family.html">With Family</a>
+        <a href="korea.html">Visit Korea</a>
+      </div>
+    </nav>  
+    <nav class="topnav_others">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="family.html">With Family</a></li>
+      <li><a href="korea.html">Visit Korea</a></li>
+    </ul>
+  </nav>
+    <img src="images/partying.png" id="top_pic" alt="Family at a birthday party">
+    <h1>Visit Korea</h1>
+  </header>
+  <main id="main_content" >
+    <p>Here are some of the things to enjoy in <a href="https://english.visitkorea.or.kr/svc/main/index.do">Korea</a>.</p>
+    <p>Enjoy food, K-pop, shopping, old palaces, and more! I love my country.</p>
+    <p>Please click on the photos below to make them larger.</p>
+  <div class="korea-container">
+    <div class="flex korea_pic korea-image-container">
+   <div class="korea-image">
+    <figcaption><img src="images/kpop.png" alt="There are many K-pop concerts">K-pop concerts</figcaption></div>
+  <div class="korea-image">
+  <figcaption><img src="images/myeongdong.png" alt="Enjoy shopping in Myeong-dong">Myeong-dong shopping</figcaption></div>
+<div class="korea-image">
+<figcaption><img src="images/nightview.png" alt="Seoul has a beautiful nightview">Seoul nightview</figcaption></div>
+<div class="korea-image">
+<figcaption><img src="images/river.png" alt="Han River is where Koreans take a rest">Han River</figcaption></div>
+      <div class="korea-image">
+      <figcaption><img src="images/bbq.png" alt="Korean bbq is good">Yummy BBQ</figcaption></div>
+      <div class="korea-image">
+      <figcaption><img src="images/bukchon.png" alt="I love the view from Bukchon looking down at Seoul">From Bukchon</figcaption></div>
+      <div class="korea-image">
+      <figcaption><img src="images/gangnam.png" alt="Go to Gangnam">Gangnam Style</figcaption></div>
+      <div class="korea-image">
+      <figcaption><img src="images/hanbok.png" alt="Hanbok is very pretty">Beautiful Hanbok</figcaption></div>
+      <div class="korea-image">
+      <figcaption><img src="images/food.png" alt="Don't miss out on Korean snack, too">Korean snack</figcaption></div>
+      </div>
+  </div>
+ <div class="popup-image">
+  <span>&times;</span>
+  <img src="" alt="">
+</div>
+
+  </main>
+  <footer>
+    <p>This page was adapted for Andy from a page by Colleen van Lent for the <a
+        href="https://www.coursera.org/specializations/web-design"> Web Design for Everybody</a> Specialization.
+    </p>
+</footer>
+<script src="js/script.js"></script>
+<script>
+   /* For navbar for mobile */
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
+</body>
+
+</html>

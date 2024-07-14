@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>About Me</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/simple.css">
+</head>
+
+<body>
+  <a href="#main_content" class="focus-visible-only">Skip to Main Content</a>
+  <header>
+    <nav class="topnav">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="invoke function">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </a>
+      <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="family.html">With Family</a>
+        <a href="korea.html">Visit Korea</a>
+      </div>
+    </nav>  
+    <nav class="topnav_others">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="family.html">With Family</a></li>
+      <li><a href="korea.html">Visit Korea</a></li>
+    </ul>
+  </nav>
+    <img src="images/partying.png" id="top_pic" alt="Family at a birthday party">
+    <h1>About Me</h1>
+  </header>
+  <main id="main_content"  >
+    <p>My name is Andy and I am in Jakarta. I am married and has two lovely children.</p>
+    <p>Sometimes I would go to Korea and other times we would do staycations or go to Singapore.</p>
+    <p> I can show you my schedule but unfortunately I have no plans for the near future.</p>
+    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FJakarta&bgcolor=%23ffffff&showTitle=0&showPrint=0&mode=AGENDA&src=YXJvc2EuYW5keUBnbWFpbC5jb20&src=ZW4uaW5kb25lc2lhbiNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23039BE5&color=%230B8043" class="responsive-iframe"></iframe>
+</main>
+<footer>
+    <p>This page was adapted for Andy from a page by Colleen van Lent for the <a
+        href="https://www.coursera.org/specializations/web-design"> Web Design for Everybody</a> Specialization.
+      </p>
+</footer>
+<script>
+   /* For navbar for mobile */
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
+</body>
+
+</html>
